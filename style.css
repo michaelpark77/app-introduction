@@ -110,10 +110,19 @@ h1 {
   font-size: 24px;
   font-weight: bold;
 }
+#qr-code {
+  display: none;
+}
+#dt-app-link-section {
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+}
 @media screen and (min-width: 768px) {
   .mo {
     display: none;
   }
+  
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
@@ -150,6 +159,9 @@ h1 {
   #app-promotion-text {
     
   }
+  #qr-code {
+    display: block;
+  }
   .dt {
     display: inline;
   }
@@ -165,9 +177,13 @@ h1 {
     padding-left: 30px;
     justify-content: center;
   }
-  
-}
 
+}
+@media screen and (max-width: 1023px) {
+  .dt-only {
+    display: none; 
+  }
+}
 p {
   padding-top: 20px;
   font-size: 18px;

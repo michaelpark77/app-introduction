@@ -37,7 +37,7 @@
     <div id="top-titles">
       <h1>
         <picture>
-          <source srcset="./resources/center-top-title.svg" media="(min-width: 768px) and (max-width: 1024px)">
+          <source srcset="./resources/center-top-title.svg" media="(min-width: 768px) and (max-width: 1023px)">
           <img src="./resources/left-top-title.svg" alt="MDN">
         </picture>
         
@@ -48,15 +48,13 @@
         <span class="mo dt"><br/></span>
         소통해요!
       </p>
-      <p class="tc" style="font-size: 14px; padding-top: 120px;">
+      <p class="tc dt-only" style="font-size: 14px; padding-top: 120px;">
         간편하게 QR코드 찍고 <br />
         구글 플레이, 앱스토어에서 내려받으세요
       </p>
-      <div id="dt-app-link-section">
-        <div>
-          <a href="">
-            <img src='./resources/app-qr-code.png' style='width: 140px; height: 140px;'/>
-          </a>
+      <div class="dt-only" id="dt-app-link-section">
+        <div id="qr-code">
+          <img src='./resources/app-qr-code.png' style='width: 140px; height: 140px;'/>
         </div>
         <div class="dt-app-button-wrap">
           <a class='app-link-button' href="https://play.google.com/store/apps/details?id=com.kifrs.app.community" target="_blank" >
